@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin-top: 30%;
+
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  width: 350px;
+  height: 450px;
+  border-radius: 5%;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: hsl(213, 19%, 18%);
+}
+
+.header {
+  color: white;
+  font-family: "Overpass";
+}
+
+.star {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px 10px 10px 10px;
+
+  margin: 10px 10px 10px 10px;
+}
+.prag {
+  color: hsl(217, 12%, 63%);
+  font-family: "Overpass";
+}
+
+.btn {
+  padding: 10px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid #363436;
+  font-size: 16px;
+  background-color: hsl(217, 12%, 63%);
+  margin: 10px 10px;
+  cursor: pointer;
+  font-family: "Overpass";
+}
+
+.submit {
+  border-radius: 26px;
+  font-family: Arial;
+  color: #363436;
+  font-size: 15px;
+  background: #fb7718;
+  padding: 10px 40px 10px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding-right: 125px;
+  padding-left: 125px;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Overpass";
+}
+
+/*Thanks.jsx*/
+
+.select {
+  border-radius: 100px;
+  border: 1px solid white;
+  font-family: "Overpass";
+  color: #363436;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fb7718;
+  width: 250px;
+  height: 35px;
+  margin-left: 13%;
+  background-color: hsl(213, 19%, 18%);
+  margin-bottom: 20px;
+}
+/* 
+.radio-btn {
+  width: 50px;
+  height: 50px;
+}
+  */
+.rate-btn {
+  border-radius: 26px;
+  font-family: Arial;
+  color: #363436;
+  font-size: 15px;
+  background: #fb7718;
+  padding: 10px 40px 10px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding-right: 125px;
+  padding-left: 125px;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.radio-btn:hover {
+  cursor: pointer;
+}
+.submit:hover {
+  cursor: pointer;
+}
+
+.phone-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+p,
+h1,
+h2 {
+  font-family: "Overpass";
+}
+
+.radio-label {
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+}
+
+.radio-btn {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px; /* Adjust size as needed */
+  height: 60px; /* Adjust size as needed */
+  background-color: #363436;
+  border-radius: 50%;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.radio-btn:checked + .checkmark {
+  background-color: #fb7718;
+  color: white;
+}
+
+.rating-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px; /* Space between radio buttons */
+}
